@@ -29,7 +29,7 @@
 ## Как работать с репозиторием
 
 1. Клонируем репозиторий и открываем его в Visual Studio Code
-2. Переходим в директорию `docker` запускаем стенд через docker-compose up -d
+2. Переходим в директорию `docker` запускаем стенд через `docker-compose up -d`
 3. Убеждаемся в доступности локального окружения:
    1. Убеждаемся что Prometheus доступен по адресу `localhost:9090` ![container.png](docs/prom.png)
    2. Убеждаемся что Grafana доступна по адресу `localhost:3000` ![container.png](docs/grafana.png)
